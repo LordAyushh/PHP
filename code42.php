@@ -1,13 +1,13 @@
 <?php
 // Associative array storing marks of students in 5 subjects
 $students = [
-    "Manshay" => ["C" => 85, "Algo" => 90, "DS" => 78, "DBMS" => 88, "Stats" => 76],
+    "Ayush" => ["C" => 85, "Algo" => 90, "DS" => 78, "DBMS" => 88, "Stats" => 76],
     "Rahul" => ["C" => 92, "Algo" => 80, "DS" => 89, "DBMS" => 84, "Stats" => 90],
     "Rajat" => ["C" => 75, "Algo" => 85, "DS" => 80, "DBMS" => 79, "Stats" => 82]
 ];
 
 // Extract subjects dynamically
-$subjects = array_keys($students["Manshay"]);
+$subjects = array_keys($students["Ayush"]);
 
 echo "<table border='1' cellspacing='0' cellpadding='10'>";
 echo "<tr>
@@ -18,7 +18,7 @@ echo "<tr>
         <th>Rajat</th>
       </tr>";
 
-$totals = ["Manshay" => 0, "Rahul" => 0, "Rajat" => 0];
+$totals = ["Ayush" => 0, "Rahul" => 0, "Rajat" => 0];
 
 // Loop through subjects
 $srNo = 1;
